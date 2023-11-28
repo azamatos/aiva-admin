@@ -1,0 +1,38 @@
+const COOKIE_AGE = 60 * 60 * 12;
+
+const HEADER_HEIGHT = 64;
+const LEFT_DRAWER_WIDTH = 255;
+const RIGHT_DRAWER_WIDTH = 430;
+
+const AUTH_ROUTES = ["/login"];
+
+const TOKEN_ID = "AIVA_INFO";
+const CSRF_TOKEN_ID = "X-CSRF-TOKEN";
+
+const UNAUTHORIZED_CODES = [401];
+const BAD_REQUEST_CODE = 400;
+const FORBIDDEN_CODES = [403];
+
+const ACCESS_TYPES = {
+  opened: "Открытый доступ",
+  closed: "Ограниченный доступ",
+};
+
+const DEFAULT_PAGE = 1;
+const DEFAULT_LIMIT = 10;
+
+export {
+  COOKIE_AGE,
+  HEADER_HEIGHT,
+  LEFT_DRAWER_WIDTH,
+  RIGHT_DRAWER_WIDTH,
+  AUTH_ROUTES,
+  UNAUTHORIZED_CODES,
+  FORBIDDEN_CODES,
+  TOKEN_ID,
+  ACCESS_TYPES,
+  DEFAULT_PAGE,
+  DEFAULT_LIMIT,
+  BAD_REQUEST_CODE,
+  CSRF_TOKEN_ID,
+};

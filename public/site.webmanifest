@@ -1,0 +1,24 @@
+{
+  "name": "Aiva admin",
+  "short_name": "Aiva admin",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#FF0000",
+  "background_color": "#212121",
+  "display": "standalone",
+  "related_applications": [],
+  "capture_links": "none"
+}
